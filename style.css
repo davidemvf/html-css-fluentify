@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #0D325A;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#fluentify{
+  color: white;
+  font-size: 40px;
+  margin-left: 8%;
+}
+
+ul{
+  display: inline-block;
+  margin-left: 10%;
+}
+
+ul li{
+  display: inline-block;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  }
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+#tutor{
+  font-size: 14px;
+  color: lightgray;
+  margin-left: 10%;
+  text-decoration: none;
+}
+
+#login{
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 2px;
+  margin-left: 1%
+}
+
+/*first section*/
+
+.first_section{
+  background-color: #0D325A;
+  /*width: 100%;
+  /*height: 500px;*/
+
+}
+
+.title{
+  margin:140px 0 140px 8%;
+  float:left;
+  /*width: 100%;*/
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 40px;
+  /*float: left;
+  clear: right;
+  margin: 150px 0 0 8%;
+  width: 100%*/
+
+}
+
+section.first_section a{
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  padding: 14px;
+  background-color: #7FB802;
+  /*float: left;*/
+}
+
+section.first_section:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.intermediate{
+  width: 100%;
+  background-color: #F9F9F9;
+  text-align: center;
+  padding: 40px;
+}
+
+.first_p{
+  font-size: 25px;
+  opacity: 0.8;
+
+}
+
+.second_p{
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.box_second{
+  width: calc(100%/3);
+  text-align: center;
+  padding:5%;
+  float: left;
+}
+
+.profilo{
+  margin:50px 0 ;
+  height: 120px;
+}
+
+.green{
+  color: green;
+  font-size: 22px;
+  margin-bottom:10px;
+}
+
+.level{
+  float: left;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+#teach{
+  height: 250px;
+}
+
+.level_right{
+  margin-top: 150px;
+  text-align: center;
+  float:right;
+  margin-right: 100px;
+  margin-bottom: 150px;
+  width:30%;
+}
+
+.p_one{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.third:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*footer*/
+
+.first_box_footer{
+  width: 100%;
+  height: 100px;
+  background-color: #0F335A;
+  color: white;
+  font-size: 15px;
+  padding-left: 8%;
+  padding: 2%;
+}
+
+#faq{
+  font-size: 30px;
+}
+
+#faq_link{
+  text-decoration: none;
+  font-size: 30px;
+  color:orange;
+}
